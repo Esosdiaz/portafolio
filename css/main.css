@@ -44,10 +44,23 @@
   .portSobreMi .row .aboutText h2 {
     color: #FF008D;
     font-family: playlistScript;
-    font-size: 50px; }
+    font-size: 60px;
+    text-align: right; }
   .portSobreMi .row .aboutText p {
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px; }
+    font-size: 15px;
+    text-align: right; }
+
+.portWeb {
+  padding: 10vh;
+  overflow: hidden; }
+  .portWeb .webTitulo h2 {
+    color: #FF008D;
+    font-family: playlistScript;
+    font-size: 60px;
+    text-align: right; }
+  .portWeb .webImagen a img {
+    margin: 10px; }
 
 /*# sourceMappingURL=main.css.map */

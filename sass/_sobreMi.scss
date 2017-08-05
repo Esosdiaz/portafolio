@@ -7,11 +7,33 @@
 				color: $fucsia;
 				font-family: playlistScript;
 				font-size: $titulo;
+				text-align: right;
 			}
 			p{
 				color: $blanco;
 				font-family: 'Montserrat', sans-serif;
 				font-size: $texto;
+				text-align: right;
+
+			}
+		}
+	}
+}
+
+.portWeb{
+	@include contenedor();
+	.webTitulo{
+		h2{
+			color: $fucsia;
+			font-family: playlistScript;
+			font-size: $titulo;
+			text-align: right;
+		}
+	}
+	.webImagen{
+		a{
+			img{
+				margin:10px;
 			}
 		}
 	}
