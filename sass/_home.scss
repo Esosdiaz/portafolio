@@ -5,6 +5,8 @@
 		width: 100%;
 		height: 10vh;
 		background-color: $negro;
+		position: fixed;
+		z-index: 5;
 		ul{
 			li{
 				height: 10vh;
@@ -21,13 +23,20 @@
 				}
 			li:hover{
 				background-color: $fucsia;
+				border-radius:3px;
+				-webkit-transition: background-color 0.5s ease-out;
+  				-moz-transition: background-color 0.5s ease-out;
+  				-o-transition: background-color 0.5s ease-out;
+  				transition: background-color 0.5s ease-out;
 			}
 		}
 	}
 }
 .portInicio{
 	@include contenedor();
-	.videoIso{}
+	.videoIso{
+		padding-top:10vh;
+	}
 	.textoInicio{
 		h1{
 			font-family: playlistScript;
@@ -71,12 +80,17 @@
 	}
 	.webImagen{
 		a{
+			width:300px;
+			height: 150px;
 			img{
 				margin:10px;
+				border-radius: 5px;
+				cursor:pointer;
 			}
 		}
 	}
 }
+
 
 .portAudiovisual{
 	@include contenedor();
@@ -156,6 +170,7 @@
 					font-size: 30px;
 					margin-top: 10px;
 					padding-right: 10px; 
+					text-align: left;
 				}
 				.fa-envelope{
 					font-size: 20px;
@@ -177,7 +192,17 @@
 					margin: 15px;
 					cursor: pointer;
 				}
+				i:hover{
+					margin:15px;
+					background-color: $blanco;
+					border-radius:3px;
+					-webkit-transition: background-color 0.5s ease-out;
+  					-moz-transition: background-color 0.5s ease-out;
+  					-o-transition: background-color 0.5s ease-out;
+  					transition: background-color 0.5s ease-out;
+				}
 			}
+
 		}
 	}
 }
