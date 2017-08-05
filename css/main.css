@@ -45,6 +45,7 @@
     color: #FF008D;
     font-family: playlistScript;
     font-size: 60px;
+    padding-bottom: 20px;
     text-align: right; }
   .portSobreMi .row .aboutText p {
     color: #ffffff;
@@ -59,8 +60,39 @@
     color: #FF008D;
     font-family: playlistScript;
     font-size: 60px;
-    text-align: right; }
+    padding-bottom: 20px;
+    text-align: right;
+    padding-right: 50px; }
   .portWeb .webImagen a img {
     margin: 10px; }
+
+.portAudiovisual {
+  padding: 10vh;
+  overflow: hidden;
+  background-color: #000000; }
+  .portAudiovisual .visualTitulo h2 {
+    color: #FF008D;
+    font-family: playlistScript;
+    font-size: 60px;
+    padding-bottom: 20px;
+    text-align: left; }
+
+.visualImg a img {
+  margin-right: 5px;
+  margin-left: 5px;
+  cursor: pointer; }
+
+.modales img {
+  width: 250%;
+  border-radius: 10px;
+  position: absolute;
+  right: -212px;
+  top: 86px; }
+.modales video {
+  width: 250%;
+  border-radius: 10px;
+  position: absolute;
+  right: -212px;
+  top: 86px; }
 
 /*# sourceMappingURL=main.css.map */

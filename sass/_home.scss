@@ -40,4 +40,80 @@
 		}
 	}
 }
+.portSobreMi{
+	@include contenedor();
+	background-color: $negro;
+	.row{
+		.aboutText{
+			h2{
+				@include titulo();
+				text-align: right;
+			}
+			p{
+				color: $blanco;
+				font-family: 'Montserrat', sans-serif;
+				font-size: $texto;
+				text-align: right;
 
+			}
+		}
+	}
+}
+
+.portWeb{
+	@include contenedor();
+	.webTitulo{
+		h2{
+			@include titulo();
+			text-align: right;
+			padding-right: 50px;
+		}
+	}
+	.webImagen{
+		a{
+			img{
+				margin:10px;
+			}
+		}
+	}
+}
+
+.portAudiovisual{
+	@include contenedor();
+	background-color: $negro;
+	.visualTitulo{
+		h2{
+			@include titulo();
+			text-align: left;
+		}
+	}
+}
+.visualImg{
+	a{
+		img{
+			margin-right: 5px;
+			margin-left: 5px;
+			cursor:pointer;
+		}
+	}
+}
+
+.modales{
+	img{
+		width: 250%;
+		border-radius: 10px;
+		position: absolute;
+		right: -212px;
+		top: 86px;
+	}
+	video{
+		width: 250%;
+		border-radius: 10px;
+		position: absolute;
+		right: -212px;
+		top: 86px;
+	}
+}
+
+
+	

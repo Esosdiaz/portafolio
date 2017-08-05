@@ -1,5 +1,10 @@
 @mixin contenedor(){
 	padding:10vh;
 	overflow: hidden;
-
+}
+@mixin titulo(){
+	color: $fucsia;
+	font-family: playlistScript;
+	font-size: $titulo;
+	padding-bottom: 20px;
 }
