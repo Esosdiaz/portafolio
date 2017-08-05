@@ -95,4 +95,63 @@
   right: -212px;
   top: 86px; }
 
+.portHerramientas {
+  padding: 10vh;
+  overflow: hidden; }
+  .portHerramientas .herramientasTitulo h2 {
+    color: #FF008D;
+    font-family: playlistScript;
+    font-size: 60px;
+    padding-bottom: 20px; }
+  .portHerramientas .row {
+    width: 300%; }
+    .portHerramientas .row .colHerramientas {
+      font-size: 60px;
+      color: #333333; }
+      .portHerramientas .row .colHerramientas i {
+        padding: 20px; }
+
+.portContact {
+  background-color: #000000;
+  padding: 10vh;
+  overflow: hidden; }
+  .portContact .contactTitulo h2 {
+    color: #FF008D;
+    font-family: playlistScript;
+    font-size: 60px;
+    padding-bottom: 20px; }
+
+.datosContacto ul li {
+  list-style: none; }
+  .datosContacto ul li a {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    cursor: pointer; }
+    .datosContacto ul li a i {
+      color: #FF008D;
+      font-size: 30px;
+      margin-top: 10px;
+      padding-right: 10px; }
+    .datosContacto ul li a .fa-envelope {
+      font-size: 20px; }
+
+.datosSociales ul li {
+  list-style: none;
+  display: inline-block; }
+  .datosSociales ul li a i {
+    color: #FF008D;
+    font-size: 60px;
+    margin: 15px;
+    cursor: pointer; }
+
+footer {
+  background-color: #333333;
+  padding: 20px;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif; }
+  footer i {
+    color: #FF008D; }
+
 /*# sourceMappingURL=main.css.map */

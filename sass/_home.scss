@@ -115,5 +115,79 @@
 	}
 }
 
+.portHerramientas{
+	@include contenedor();
+	.herramientasTitulo{
+		h2{
+			@include titulo();
+		}
+	}
+	.row{
+		width: 300%;
+		.colHerramientas{
+			font-size: 60px;
+			color: $grisOscuro;
+			i{
+				padding:20px;
+			}
+		}
+	}
+}
+.portContact{
+	background-color: $negro;
+	@include contenedor();
+	.contactTitulo{
+		h2{
+		@include titulo();
+		}
+	}
+}
+.datosContacto{
+	ul{
+		li{
+			list-style: none;
+			a{
+				color: $blanco;
+				font-family: 'Montserrat', sans-serif;
+				font-size: $texto;
+				cursor: pointer;
+				i{
+					color: $fucsia;
+					font-size: 30px;
+					margin-top: 10px;
+					padding-right: 10px; 
+				}
+				.fa-envelope{
+					font-size: 20px;
+				}
+				}
+			}
+		}
+	}
 
-	
+.datosSociales{
+	ul{
+		li{
+			list-style: none;
+			display: inline-block;
+			a{
+				i{
+					color: $fucsia;
+					font-size: 60px;
+					margin: 15px;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}
+footer{
+	background-color: $grisOscuro;
+	padding: 20px;
+	color: $blanco;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	i{
+		color: $fucsia;
+	}
+}
