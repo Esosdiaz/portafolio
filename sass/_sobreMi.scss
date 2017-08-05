@@ -1,0 +1,18 @@
+.portSobreMi{
+	@include contenedor();
+	background-color: $negro;
+	.row{
+		.aboutText{
+			h2{
+				color: $fucsia;
+				font-family: playlistScript;
+				font-size: $titulo;
+			}
+			p{
+				color: $blanco;
+				font-family: 'Montserrat', sans-serif;
+				font-size: $texto;
+			}
+		}
+	}
+}

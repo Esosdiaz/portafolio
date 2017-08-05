@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: "playlistScript";
+  src: url(../assets/fuentes/playlistScript.otf), url(assets/fuentes/playlistScript.ttf); }
+.home {
+  width: 100%;
+  height: auto; }
+  .home nav {
+    width: 100%;
+    height: 10vh;
+    background-color: #000000; }
+    .home nav ul li {
+      height: 10vh;
+      padding-top: 3vh;
+      padding-left: 25px;
+      padding-right: 25px;
+      display: inline-block; }
+      .home nav ul li a {
+        color: #ffffff;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        cursor: pointer; }
+    .home nav ul li:hover {
+      background-color: #FF008D; }
+
+.portInicio {
+  padding: 10vh;
+  overflow: hidden; }
+  .portInicio .textoInicio h1 {
+    font-family: playlistScript;
+    font-size: 150px; }
+  .portInicio .textoInicio p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    letter-spacing: 5px; }
+
+.portSobreMi {
+  padding: 10vh;
+  overflow: hidden;
+  background-color: #000000; }
+  .portSobreMi .row .aboutText h2 {
+    color: #FF008D;
+    font-family: playlistScript;
+    font-size: 50px; }
+  .portSobreMi .row .aboutText p {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px; }
+
+/*# sourceMappingURL=main.css.map */
