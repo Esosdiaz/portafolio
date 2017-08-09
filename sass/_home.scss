@@ -71,6 +71,10 @@
 
 .portWeb{
 	@include contenedor();
+	.mancha1{
+		
+	}
+
 	.webTitulo{
 		h2{
 			@include titulo();
@@ -105,12 +109,14 @@
 .visualImg{
 	a{
 		img{
+			padding-bottom:25px;
 			margin-right: 5px;
 			margin-left: 5px;
 			cursor:pointer;
 		}
 	}
 }
+
 
 .modales{
 	img{
