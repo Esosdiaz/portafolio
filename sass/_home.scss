@@ -8,31 +8,39 @@
 		position: fixed;
 		z-index: 5;
 		font-weight: 500;
-		ul{
-			li{
-				height: 10vh;
-				padding-top: 3vh;
-				padding-left: 25px;
-				padding-right: 25px;
-				display: inline-block;
-				a{
-					color: $turquesa;
-					text-decoration: none;
-					font-family: 'Montserrat', sans-serif;
-					cursor: pointer;
+		border: 1px solid $turquesa;
+		.linkses{
+			padding-left:20%;
+			ul{
+				li{
+					height: 10vh;
+					padding-top: 1vh;
+					padding-left: 25px;
+					padding-right: 25px;
+					display: inline-block;
+					a{
+						color: $turquesa;
+						text-decoration: none;
+						font-family: 'Montserrat', sans-serif;
+						cursor: pointer;
+					}
 				}
+				li:hover{
+					background-color: $blanco;
+					border-radius:3px;
+					-webkit-transition: background-color 0.5s ease-out;
+  					-moz-transition: background-color 0.5s ease-out;
+  					-o-transition: background-color 0.5s ease-out;
+  					transition: background-color 0.5s ease-out;
 				}
-			li:hover{
-				background-color: $blanco;
-				border-radius:3px;
-				-webkit-transition: background-color 0.5s ease-out;
-  				-moz-transition: background-color 0.5s ease-out;
-  				-o-transition: background-color 0.5s ease-out;
-  				transition: background-color 0.5s ease-out;
 			}
 		}
 	}
 }
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: rgba(255,255,255,.15);
+}
+
 .portInicio{
 	@include contenedor();
 	.videoIso{
@@ -57,7 +65,20 @@
 	.row{
 		h2{
 				@include titulo();
-				text-align: center;
+				text-align: right;
+		}
+		.fotoCapital{
+			.foto{
+				margin-left: 200px;
+				margin-right: 200px;
+				color: $blanco;
+				font-family: 'Montserrat', sans-serif;
+				font-size: 17px;
+				padding-right: 1px;
+				img{
+					float: right;
+					border: 5px solid $turquesa;				}
+			}
 		}
 		.aboutText{
 			p{
@@ -65,9 +86,14 @@
 				font-family: 'Montserrat', sans-serif;
 				font-size: $texto;
 				text-align: right;
-
 			}
 		}
+		// .aboutImg{
+		// 	margin-left: 10%;
+		// 	img{
+		// 	border: 5px solid $turquesa
+		// }
+		// }
 	}
 }
 

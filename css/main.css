@@ -20,25 +20,31 @@ h4 {
     background-color: #353535;
     position: fixed;
     z-index: 5;
-    font-weight: 500; }
-    .home nav ul li {
-      height: 10vh;
-      padding-top: 3vh;
-      padding-left: 25px;
-      padding-right: 25px;
-      display: inline-block; }
-      .home nav ul li a {
-        color: #009EA1;
-        text-decoration: none;
-        font-family: 'Montserrat', sans-serif;
-        cursor: pointer; }
-    .home nav ul li:hover {
-      background-color: #ffffff;
-      border-radius: 3px;
-      -webkit-transition: background-color 0.5s ease-out;
-      -moz-transition: background-color 0.5s ease-out;
-      -o-transition: background-color 0.5s ease-out;
-      transition: background-color 0.5s ease-out; }
+    font-weight: 500;
+    border: 1px solid #009EA1; }
+    .home nav .linkses {
+      padding-left: 20%; }
+      .home nav .linkses ul li {
+        height: 10vh;
+        padding-top: 1vh;
+        padding-left: 25px;
+        padding-right: 25px;
+        display: inline-block; }
+        .home nav .linkses ul li a {
+          color: #009EA1;
+          text-decoration: none;
+          font-family: 'Montserrat', sans-serif;
+          cursor: pointer; }
+      .home nav .linkses ul li:hover {
+        background-color: #ffffff;
+        border-radius: 3px;
+        -webkit-transition: background-color 0.5s ease-out;
+        -moz-transition: background-color 0.5s ease-out;
+        -o-transition: background-color 0.5s ease-out;
+        transition: background-color 0.5s ease-out; }
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: rgba(255, 255, 255, 0.15); }
 
 .portInicio {
   padding-top: 15vh;
@@ -69,7 +75,17 @@ h4 {
     font-family: playlistScript;
     font-size: 60px;
     padding-bottom: 20px;
-    text-align: center; }
+    text-align: right; }
+  .portSobreMi .row .fotoCapital .foto {
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    padding-right: 1px; }
+    .portSobreMi .row .fotoCapital .foto img {
+      float: right;
+      border: 5px solid #009EA1; }
   .portSobreMi .row .aboutText p {
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;

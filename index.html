@@ -12,7 +12,29 @@
 </head>
 <body>
 	<section class="home">
-		<nav>
+		<nav class="navbar navbar-default" role="navigation">
+  		<!-- Brand and toggle get grouped for better mobile display -->
+  			<div class="navbar-header">
+    			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      				<span class="sr-only">Toggle navigation</span>
+      				<span class="icon-bar"></span>
+      				<span class="icon-bar"></span>
+      				<span class="icon-bar"></span>
+    			</button>
+  			</div>
+
+  			<!-- Collect the nav links, forms, and other content for toggling -->
+  			<div class="collapse navbar-collapse linkses" id="bs-example-navbar-collapse-1">
+    			<ul class="nav navbar-nav">
+      				<li><a href="#inicio">home</a></li>
+					<li><a href="#sobreMi">sobre mi</a></li>
+					<li><a href="#portafolioWeb">webFolio</a></li>
+					<li><a href="#habilidades">herramientas</a></li>
+					<li><a href="#contacto">contacto</a></li>
+   			 	</ul>
+  			</div><!-- /.navbar-collapse -->
+		</nav>
+	<!-- 	<nav>
 			<ul class="text-center">
 				<li><a href="#inicio">home</a></li>
 				<li><a href="#sobreMi">sobre mi</a></li>
@@ -20,7 +42,7 @@
 				<li><a href="#habilidades">herramientas</a></li>
 				<li><a href="#contacto">contacto</a></li>
 			</ul>
-		</nav>
+		</nav> -->
 		<div class="portInicio" id="inicio">
 			<div class="videoIso text-center">
 				<video id="video-iso" class="videoIsotipo text-center" video autobuffer autoplay loop muted>
@@ -35,12 +57,15 @@
 	</section>
 	<section class="portSobreMi" id="sobreMi">
 		<div class="row">
-			<h2>Sobre mi</h2>
-			<div class="col-lg-6 col-md-6  aboutText">
-				<p>Mi nombre es Fabiola, soy desarrolladora Front-End y montajista audiovisual. Amo los lenguajes de todo tipo; desde el lenguaje cinamatográfico, hasta los lenguajes de programación. Me gusta trabajar en equipo, sentirme desafiada, aprender cosas nuevas y creo que es la tecnología lo que nos permitirá cambiar el mundo. </p>
-			</div>
-			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 aboutImg">
-			<!--foto-->
+			<div class="fotoCapital">
+				<div class="foto hidden-xs hidden-sm">
+					<img src="assets/img/perfil.png" class="img-responsive img-circle"> 
+					<h2>Sobre mi</h2>
+					Mi nombre es Fabiola, soy desarrolladora Front-End y montajista audiovisual. Amo los lenguajes de todo tipo; desde el lenguaje cinematográfico, hasta los lenguajes de programación. Me gusta trabajar en equipo, sentirme desafiada, aprender cosas nuevas y creo que es la tecnología lo que nos permitirá cambiar el mundo. 
+				</div>
+				<div class="hidden-lg hidden-md col-12-sm col-12-xs aboutText">
+					<p>Mi nombre es Fabiola, soy desarrolladora Front-End y montajista audiovisual. Amo los lenguajes de todo tipo; desde el lenguaje cinamatográfico, hasta los lenguajes de programación. Me gusta trabajar en equipo, sentirme desafiada, aprender cosas nuevas y creo que es la tecnología lo que nos permitirá cambiar el mundo.  </p>
+				</div>
 			</div>
 		</div>
 	</section>
