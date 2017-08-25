@@ -10,13 +10,11 @@
 		font-weight: 500;
 		border: 1px solid $turquesa;
 		.linkses{
-			padding-left:20%;
+			background-color: $negro;
 			ul{
 				li{
 					height: 10vh;
 					padding-top: 1vh;
-					padding-left: 25px;
-					padding-right: 25px;
 					display: inline-block;
 					a{
 						color: $turquesa;
@@ -37,8 +35,26 @@
 		}
 	}
 }
+.navbar-default .navbar-toggle {
+    margin-top: 15px;
+    border-color: #009ea1;
+}
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+    > li {
+      float: none;
+      display: inline-block;
+    }
+  }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    border-color: rgba(255,255,255,.15);
+ border-color: rgba(255,255,255,.15);
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: $turquesa;
 }
 
 .portInicio{

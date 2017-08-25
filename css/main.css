@@ -23,12 +23,10 @@ h4 {
     font-weight: 500;
     border: 1px solid #009EA1; }
     .home nav .linkses {
-      padding-left: 20%; }
+      background-color: #353535; }
       .home nav .linkses ul li {
         height: 10vh;
         padding-top: 1vh;
-        padding-left: 25px;
-        padding-right: 25px;
         display: inline-block; }
         .home nav .linkses ul li a {
           color: #009EA1;
@@ -43,8 +41,25 @@ h4 {
         -o-transition: background-color 0.5s ease-out;
         transition: background-color 0.5s ease-out; }
 
+.navbar-default .navbar-toggle {
+  margin-top: 15px;
+  border-color: #009ea1; }
+
+.navbar-nav {
+  width: 100%;
+  text-align: center; }
+  .navbar-nav > li {
+    float: none;
+    display: inline-block; }
+
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   border-color: rgba(255, 255, 255, 0.15); }
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #fff; }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #009EA1; }
 
 .portInicio {
   padding-top: 15vh;
