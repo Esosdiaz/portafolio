@@ -17,9 +17,10 @@ h4 {
   .home nav {
     width: 100%;
     height: 10vh;
-    background-color: #000000;
+    background-color: #353535;
     position: fixed;
-    z-index: 5; }
+    z-index: 5;
+    font-weight: 500; }
     .home nav ul li {
       height: 10vh;
       padding-top: 3vh;
@@ -27,12 +28,12 @@ h4 {
       padding-right: 25px;
       display: inline-block; }
       .home nav ul li a {
-        color: #ffffff;
+        color: #009EA1;
         text-decoration: none;
         font-family: 'Montserrat', sans-serif;
         cursor: pointer; }
     .home nav ul li:hover {
-      background-color: #FF008D;
+      background-color: #ffffff;
       border-radius: 3px;
       -webkit-transition: background-color 0.5s ease-out;
       -moz-transition: background-color 0.5s ease-out;
@@ -40,7 +41,10 @@ h4 {
       transition: background-color 0.5s ease-out; }
 
 .portInicio {
-  padding: 10vh;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  padding-left: 50px;
+  padding-right: 50px;
   overflow: hidden; }
   .portInicio .videoIso {
     padding-top: 10vh; }
@@ -50,18 +54,22 @@ h4 {
   .portInicio .textoInicio p {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    letter-spacing: 5px; }
+    letter-spacing: 5px;
+    color: #009EA1; }
 
 .portSobreMi {
-  padding: 10vh;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  padding-left: 50px;
+  padding-right: 50px;
   overflow: hidden;
-  background-color: #000000; }
-  .portSobreMi .row .aboutText h2 {
-    color: #FF008D;
+  background-color: #353535; }
+  .portSobreMi .row h2 {
+    color: #009EA1;
     font-family: playlistScript;
     font-size: 60px;
     padding-bottom: 20px;
-    text-align: right; }
+    text-align: center; }
   .portSobreMi .row .aboutText p {
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
@@ -69,15 +77,19 @@ h4 {
     text-align: right; }
 
 .portWeb {
-  padding: 10vh;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  padding-left: 30px;
+  padding-right: 30px;
   overflow: hidden; }
+  .portWeb .mancha1 {
+    width: 100%; }
   .portWeb .webTitulo h2 {
-    color: #FF008D;
+    color: #009EA1;
     font-family: playlistScript;
     font-size: 60px;
     padding-bottom: 20px;
-    text-align: right;
-    padding-right: 50px; }
+    text-align: center; }
   .portWeb .webImagen a {
     width: 300px;
     height: 150px; }
@@ -86,41 +98,15 @@ h4 {
       border-radius: 5px;
       cursor: pointer; }
 
-.portAudiovisual {
-  padding: 10vh;
-  overflow: hidden;
-  background-color: #000000; }
-  .portAudiovisual .visualTitulo h2 {
-    color: #FF008D;
-    font-family: playlistScript;
-    font-size: 60px;
-    padding-bottom: 20px;
-    text-align: left; }
-
-.visualImg a img {
-  padding-bottom: 25px;
-  margin-right: 5px;
-  margin-left: 5px;
-  cursor: pointer; }
-
-.modales img {
-  width: 250%;
-  border-radius: 10px;
-  position: absolute;
-  right: -212px;
-  top: 86px; }
-.modales video {
-  width: 250%;
-  border-radius: 10px;
-  position: absolute;
-  right: -212px;
-  top: 86px; }
-
 .portHerramientas {
-  padding: 10vh;
-  overflow: hidden; }
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  overflow: hidden;
+  background-color: #353535; }
   .portHerramientas .herramientasTitulo h2 {
-    color: #FF008D;
+    color: #009EA1;
     font-family: playlistScript;
     font-size: 60px;
     padding-bottom: 20px; }
@@ -128,47 +114,54 @@ h4 {
     width: 300%; }
     .portHerramientas .row .colHerramientas {
       font-size: 60px;
-      color: #333333; }
+      color: #ffffff;
+      padding-left: 43px; }
       .portHerramientas .row .colHerramientas i {
         padding: 20px; }
 
 .portContact {
-  background-color: #000000;
-  padding: 10vh;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  padding-left: 50px;
+  padding-right: 50px;
   overflow: hidden; }
   .portContact .contactTitulo h2 {
-    color: #FF008D;
+    color: #009EA1;
     font-family: playlistScript;
     font-size: 60px;
     padding-bottom: 20px; }
 
-.datosContacto ul li {
-  list-style: none; }
-  .datosContacto ul li a {
-    color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    cursor: pointer; }
-    .datosContacto ul li a i {
-      color: #FF008D;
-      font-size: 30px;
-      margin-top: 10px;
-      padding-right: 10px;
-      text-align: left; }
-    .datosContacto ul li a .fa-envelope {
-      font-size: 20px; }
+.datosContacto ul {
+  padding-left: 22%; }
+  .datosContacto ul li {
+    list-style: none;
+    text-align: left; }
+    .datosContacto ul li a {
+      color: #353535;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      cursor: pointer; }
+      .datosContacto ul li a i {
+        color: #009EA1;
+        font-size: 30px;
+        margin-top: 10px;
+        padding-right: 10px;
+        text-align: left; }
+      .datosContacto ul li a .fa-envelope {
+        font-size: 20px; }
 
 .datosSociales ul li {
   list-style: none;
-  display: inline-block; }
+  display: inline-block;
+  text-align: left; }
   .datosSociales ul li a i {
-    color: #FF008D;
+    color: #009EA1;
     font-size: 60px;
     margin: 15px;
     cursor: pointer; }
   .datosSociales ul li a i:hover {
     margin: 15px;
-    background-color: #ffffff;
+    background-color: #353535;
     border-radius: 3px;
     -webkit-transition: background-color 0.5s ease-out;
     -moz-transition: background-color 0.5s ease-out;
@@ -176,12 +169,13 @@ h4 {
     transition: background-color 0.5s ease-out; }
 
 footer {
-  background-color: #333333;
+  background-color: #353535;
   padding: 20px;
-  color: #ffffff;
+  color: #009EA1;
+  font-weight: 500;
   font-size: 15px;
   font-family: 'Montserrat', sans-serif; }
   footer i {
-    color: #FF008D; }
+    color: #ffffff; }
 
 /*# sourceMappingURL=main.css.map */
